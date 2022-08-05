@@ -1,0 +1,180 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    background: #212121;
+    width: 100vw;
+    height: 100vh;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    right: 10px;
+    height: 60px;
+    z-index: 2;
+    background: #E64A19;
+}
+
+.dm-home:hover,
+.dm-wordpress:hover,
+.dm-webdesign:hover,
+.dm-graphic:hover,
+.dm-inspiration:hover,
+.dm-contact:hover,
+.dm-about:hover {
+    background: #212121;
+    transition: all 300ms;
+}
+
+.dm-home-level-1-overflow,
+.dm-wordpress-level-1-overflow,
+.dm-webdesign-level-1-overflow,
+.dm-graphic-level-1-overflow,
+.dm-inspiration-level-1-overflow,
+.dm-contact-level-1-overflow,
+.dm-about-level-1-overflow {
+    position: absolute;
+    width: auto;
+    height: 0px;
+    left: 0px;
+    top: 60px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.dm-home:hover .dm-home-level-1-overflow,
+.dm-wordpress:hover .dm-wordpress-level-1-overflow,
+.dm-webdesign:hover .dm-webdesign-level-1-overflow,
+.dm-graphic:hover .dm-graphic-level-1-overflow,
+.dm-inspiration:hover .dm-inspiration-level-1-overflow,
+.dm-contact:hover .dm-contact-level-1-overflow,
+.dm-about:hover .dm-about-level-1-overflow {
+    height: 60px;
+}
+
+.dm-wordpress:hover .dm-wordpress-level-1-overflow,
+.dm-webdesign:hover .dm-webdesign-level-1-overflow {
+    height: 180px;
+}
+
+.dm-home-level-1,
+.dm-wordpress-level-1,
+.dm-webdesign-level-1,
+.dm-graphic-level-1,
+.dm-inspiration-level-1,
+.dm-contact-level-1,
+.dm-about-level-1 {
+    position: relative;
+    width: auto;
+    height: 180px;
+    bottom: 180px;
+    background: #E64A19;
+    transition: all 1s;
+}
+
+.dm-home-level-1,
+.dm-graphic-level-1,
+.dm-inspiration-level-1,
+.dm-contact-level-1,
+.dm-about-level-1 {
+    height: 60px;
+    bottom: 60px;
+}
+
+.dm-home:hover .dm-home-level-1,
+.dm-wordpress:hover .dm-wordpress-level-1,
+.dm-webdesign:hover .dm-webdesign-level-1,
+.dm-graphic:hover .dm-graphic-level-1,
+.dm-inspiration:hover .dm-inspiration-level-1,
+.dm-contact:hover .dm-contact-level-1,
+.dm-about:hover .dm-about-level-1 {
+    bottom: 0px;
+}
+
+.dm-wordpress-menu,
+.dm-webdesign-menu,
+.dm-webdesign-menu-1 {
+    text-decoration: none;
+}
+
+.dm-home-menu,
+.dm-wordpress-menu,
+.dm-webdesign-menu,
+.dm-webdesign-menu-1,
+.dm-graphic-menu,
+.dm-inspiration-menu,
+.dm-contact-menu,
+.dm-about-menu {
+    position: relative;
+    float: left;
+    padding: 17px 10px;
+    font-size: 24px;
+    box-sizing: border-box;
+    height: 60px;
+}
+
+.dm-home-txt,
+.dm-wordpress-txt,
+.dm-webdesign-txt,
+.dm-graphic-txt,
+.dm-inspiration-txt,
+.dm-contact-txt,
+.dm-about-txt,
+.dm-home-menu,
+.dm-wordpress-menu,
+.dm-webdesign-link,
+.dm-webdesign-link-1,
+.dm-graphic-menu,
+.dm-inspiration-menu,
+.dm-contact-menu,
+.dm-about-menu {
+    position: relative;
+    padding: 17px 10px;
+    box-sizing: border-box;
+    height: 60px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.dm-home,
+.dm-wordpress,
+.dm-webdesign,
+.dm-graphic,
+.dm-inspiration,
+.dm-contact,
+.dm-about {
+    position: relative;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+.main-txt {
+    position: absolute;
+    top: 300px;
+    font-size: 46px;
+    font-weight: 600;
+    width: auto;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    color: white;
+}
+
+.main-txt-bottom {
+    position: absolute;
+    top: 400px;
+    font-size: 18px;
+    font-weight: 600;
+    width: auto;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    color: white;
+}
